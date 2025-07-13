@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  margin:0;
+  padding:0;
+}
 header{
 display: flex;
 justify-content: space-between;
 padding: 50px 150px;
 
+}
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .header-title{
@@ -25,9 +35,19 @@ position: static;
 width: 196px;
 height: 23px;   
 display: flex;
-flex-direction: row;
+
 justify-content: center;
 align-items: center;
 gap: 10;
 padding: 17px 24px 17px 24px;   
+ }
+ .hero-bg{
+  background-image: url(/images/Hero-bg.png);
+  height: 692px ;
+  background-size: cover;
+background-position: center; }
+ .hero-content{
+  margin: 0 auto;
+  align-items: center;
+ width: 50%;
  }
