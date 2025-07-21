@@ -5,9 +5,9 @@
   padding:0;
 }
 header{
-display: flex;
-justify-content: space-between;
-padding: 50px 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
 
 }
 .azeret-mono-normal {
@@ -18,36 +18,91 @@ padding: 50px 150px;
 }
 
 .header-title{
-width: 128px;
-height: 33px;
-left: 150px;
-top: 50px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 28px;
-font-weight: 800;
-line-height: 33px;
-letter-spacing: 0%;
+  width: 128px;
+  height: 33px;
+  left: 150px;
+  top: 50px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
  }
 
 .header-btn{
-position: static;
-width: 196px;
-height: 23px;   
-display: flex;
-
-justify-content: center;
-align-items: center;
-gap: 10;
-padding: 17px 24px 17px 24px;   
+  position: static;
+  width: 196px;
+  height: 23px;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 17px 24px 17px 24px;   
  }
- .hero-bg{
+ .hero{
   background-image: url(/images/Hero-bg.png);
   height: 692px ;
   background-size: cover;
-background-position: center; }
- .hero-content{
-  margin: 0 auto;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  align-items: center; 
+  
+}
+.hero .hero-image{
+  display: flex;
+  justify-content: center;
+}
+ .hero .hero-content{
+ width: 1058px ;
+  display:flex;
+  justify-content: center;
   align-items: center;
- width: 50%;
+  flex-direction: column;
+  gap: 34px;
+
+ 
  }
+ .hero .hero-content .hero-title{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 51px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: center;
+ }
+ .hero-description{
+  color: rgb(13, 19, 33);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28x;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+
+ }
+  .hero .hero-content .hero-text{
+     display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 26px;
+  }
+   .hero .hero-content #hero-button{
+    width: 260px;
+    height: 70px;
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 22px 26px;
+   }
+   
