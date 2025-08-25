@@ -203,7 +203,7 @@ header{
         line-height: 38px;
         letter-spacing: 0%;
         text-align: left;
-        width: 412px;
+        width: 490px;
         height: 76px;
 
 
@@ -219,3 +219,30 @@ header{
       height: 55px;
       opacity: 0.7;
      }
+.sec-my-inspiration{
+  display: flex;
+  width: 1200px;
+  margin-top: 96px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  }
+
+  .vid-style{
+    width: 100%;
+    padding: 34px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+  
+  }
+  .sec-my-target{
+      display: flex;
+  width: 1200px;
+  margin-top: 115px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  }
