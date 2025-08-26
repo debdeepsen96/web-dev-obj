@@ -239,10 +239,51 @@ header{
   }
   .sec-my-target{
       display: flex;
-  width: 1200px;
-  margin-top: 115px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 50px;
+      width: 1200px;  
+      margin-top: 115px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 50px;
+  }
+  .sec-skills-heading{
+    color: rgba(13, 19, 33, 1);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .skill-cards-desc{
+    width: 300px;
+    padding:42px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+  ;
+  }
+  .link-styles{
+    color: rgba(13, 19, 33, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+
+  }
+  .skill-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sec-next-target{
+      display: flex;
+      width: 1200px;  
+      margin-top: 115px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 50px;
   }
