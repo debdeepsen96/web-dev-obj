@@ -10,6 +10,8 @@ header{
   padding: 50px 150px;
 
 }
+
+
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
 
@@ -30,13 +32,11 @@ header{
   padding: 17px 24px 17px 24px;   
  }
 .desc-font{
-  color: rgb(13, 19, 33);
+  color: rgb(13, 19, 33,0.7);
   font-size: 17px;
   font-weight: 400;
   line-height: 28x;
   letter-spacing: 0%;
-
-  opacity: 0.7;
 }
 
 .header-title{
@@ -326,3 +326,58 @@ header{
     flex-direction: column;
     gap: 10px;
   }
+
+  .sec-support{
+  background-image: url(/images/handshake.jpg);
+    
+  margin-top: 52px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  width: 1100px; 
+  gap: 26px;
+  }
+  .sec-support .sec-title-heading{
+    color: rgba(255, 255, 255, 1);
+
+    font-weight: 700;
+    line-height: 37px;
+  }
+  .form-submit{
+    display: flex;
+    gap: 18px;
+  }
+  .submit-btn{
+    width: 120px;
+    padding: 17px 20px 17px 20px;
+    color: rgba(13, 19, 33, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    font-family: Azeret Mono;
+  }
+  .text-box{
+    width: 548px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(13, 19, 33, 0.4);
+  }
+  .sec-support .sec-title{
+    gap: 16px;
+  }
+   .sec-support .sec-title-desc{
+    color: rgba(255, 255, 255, 0.7);
+   }
