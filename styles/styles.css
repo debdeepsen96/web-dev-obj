@@ -10,8 +10,6 @@ header{
   padding: 50px 150px;
 
 }
-
-
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
 
@@ -55,7 +53,7 @@ header{
 
 
  .hero{
-  background-image: url(/images/Hero-bg.png);
+  background-image: url(/images/hero-bg.png);
   height: 692px ;
   background-size: cover;
   background-position: center;
