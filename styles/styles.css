@@ -53,7 +53,7 @@ header{
 
 
  .hero{
-  background-image: url(images/hero-bg.png);
+  background-image: url(/images/hero-bg.png);
   height: 692px ;
   background-size: cover;
   background-position: center;
@@ -326,7 +326,7 @@ header{
   }
 
   .sec-support{
-  background-image: url(images/handshake.jpg);
+  background-image: url(/images/handshake.jpg);
     
   margin-top: 52px;
   background-position: center;
